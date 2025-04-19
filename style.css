@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 50px;
+    background-color: rgb(102, 101, 101);
+}
+nav{
+    text-align: start;
+    justify-content: baseline;
+    padding-top: 15px;
+    padding-left: 5px;
+}
+.link{
+    display: inline;
+}
+.link a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 10px;
+} 
+
+.search{
+    position: absolute;
+    right: 15px;
+    top: 7px;
+    input{
+        padding: 10px;
+    }
+}
+.intro{
+    text-align: center;
+    background-color:  rgb(234, 237, 237);
+    background-color: rgb(234, 237, 237);
+    color: black;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.facts{
+    text-align: center;
+    padding: 40px;
+}
+.facts ul li{
+    display: block;
+    font-weight: bold;
+}
+.quote{
+    text-align: center;
+    background-color: rgb(234, 237, 237);
+    color: black;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+table{
+    background-color: rgb(234, 237, 237);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    width: 80%;
+    justify-self: center;
+    text-align: center;
+}
+ h1{
+    text-align: center;
+}
+table tr th{
+    padding: 7px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+table tr td{
+    background-color: rgb(234, 237, 237);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 10px;
+}
+.image-section{
+    text-align: center;
+}
+.image{
+    width: 500px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.about{
+    text-align: center;
+    padding: 40px;
+}
+.about p{
+    background-color: rgb(234, 237, 237);
+    color: black;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.row{
+    display: flex;
+  
+   flex-direction: row;
+   justify-content: center;
+}
+.models,.things{
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    background-color:  rgb(234, 237, 237);
+    width: 400px;
+    border-radius: 10px;
+}
+.form{
+   
+    width: 90%;
+    background-color: rgb(234, 237, 237);
+    padding: 3%;
+    color: rgb(8, 8, 8);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.form-body{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+input[type="text"]{
+    height: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+textarea{
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input,textarea{
+    border-radius: 10px;
+    border: none;
+}
+.gender{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    input{
+        margin-right: 80px;
+    }
+}
+.subject{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    input{
+        margin-right: 80px;
+    }
+}
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color:  rgb(102, 101, 101);
+    color: white;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.mailto{
+    width: 50%;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:  rgb(102, 101, 101);
+    color: white;
+}
+   
+
+.gallery {
+    max-width: 1200px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color:  rgb(234, 237, 237);
+
+}
+
+.car-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-items: center;
+}
+
+.cars {
+    background-color: white;
+    border-radius: 10px ;
+    text-align: center;
+}
+
+.cars img {
+    width: 350px;
+    height: 240px;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+
+figcaption {
+    margin: 8px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(102, 101, 101);
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
